@@ -9,12 +9,12 @@ const model = ref([
         items: [
             { label: 'Home Page', icon: 'pi pi-fw pi-home', to: '/' },
             { label: 'Menu', icon: 'pi pi-fw pi-bars', to: '/uikit/formlayout' },
-            { label: 'My Oders', icon: 'pi pi-fw pi-bookmark', to: '/uikit/input' },
+            { label: 'My Oders', icon: 'pi pi-fw pi-bookmark', to: '/my-order' },
             { label: 'Favorites', icon: 'pi pi-fw pi-heart', to: '/uikit/favorite' },
             { label: 'History', icon: 'pi pi-fw pi-book', to: '/uikit/button' },
             { label: '', icon: '', to: '#' },
             { label: 'Partners', icon: 'pi pi-fw pi-user', to: '/uikit/list' },
-            { label: 'Logout', icon: 'pi pi-fw pi-sign-in', to: '/uikit/media' },
+            { label: 'Logout', icon: 'pi pi-fw pi-sign-in', to: '/uikit/media' }
         ]
     },
     //will delete

@@ -61,8 +61,8 @@ const router = createRouter({
                 },
                 {
                     path: '/uikit/favorite',
-                    name: 'media',
-                    component: () => import('@/views/uikit/FavoriteDoc.vue')
+                    name: 'favorite',
+                    component: () => import('@/views/pages/Favorite.vue')
                 },
                 {
                     path: '/uikit/message',
@@ -108,6 +108,11 @@ const router = createRouter({
                     path: '/documentation',
                     name: 'documentation',
                     component: () => import('@/views/pages/Documentation.vue')
+                },
+                {
+                    path: '/my-order',
+                    name: 'my-order',
+                    component: () => import('@/views/pages/MyOder.vue')
                 }
             ]
         },
@@ -121,6 +126,7 @@ const router = createRouter({
             name: 'notfound',
             component: () => import('@/views/pages/NotFound.vue')
         },
+
 
         {
             path: '/auth/login',
