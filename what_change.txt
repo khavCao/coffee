@@ -1,0 +1,18 @@
+navbar : AppTopbar.vue
+sidebar : AppMenu.vue
+
+# view page just get another conponent mix together
+
+
+
+# seleprate screen 2
+    <div class="grid grid-cols-12 gap-8">
+
+        <div class="col-span-12 xl:col-span-6">
+            
+        </div>
+        <div class="col-span-12 xl:col-span-6">
+            
+
+        </div>
+    </div>
